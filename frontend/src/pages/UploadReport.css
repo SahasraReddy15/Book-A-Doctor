@@ -1,0 +1,107 @@
+.upload-page {
+
+  min-height: 90vh;
+
+  display: flex;
+
+  justify-content: center;
+
+  align-items: center;
+
+  background:
+    linear-gradient(
+      135deg,
+      #eff6ff,
+      #dbeafe
+    );
+}
+
+.upload-card {
+
+  width: 550px;
+
+  background: white;
+
+  padding: 40px;
+
+  border-radius: 25px;
+
+  box-shadow:
+    0 15px 40px
+    rgba(0,0,0,0.08);
+}
+
+.upload-image {
+
+  width: 100px;
+
+  height: 100px;
+}
+
+.upload-btn {
+
+  background:
+    linear-gradient(
+      135deg,
+      #2563eb,
+      #3b82f6
+    );
+
+  border: none;
+
+  color: white;
+
+  padding: 12px;
+
+  border-radius: 12px;
+
+  font-weight: 600;
+}
+
+.upload-btn:hover {
+
+  color: white;
+
+  transform:
+    scale(1.02);
+}
+.reports-btn {
+
+  background:
+    linear-gradient(
+      135deg,
+      #14b8a6,
+      #06b6d4
+    );
+
+  color: white;
+
+  border: none;
+
+  border-radius: 12px;
+
+  padding: 10px 18px;
+
+  font-weight: 600;
+
+  margin-right: 10px;
+
+  transition: 0.3s;
+}
+
+.reports-btn:hover {
+
+  color: white;
+
+  transform:
+    translateY(-2px);
+
+  box-shadow:
+    0 10px 20px
+    rgba(
+      20,
+      184,
+      166,
+      0.3
+    );
+} 
